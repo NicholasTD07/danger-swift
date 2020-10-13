@@ -14,7 +14,7 @@ public struct GitHub: Decodable {
         case requestedReviewers = "requested_reviewers"
     }
 
-    public let issue: Issue
+    public let issue: Issue?
 
     public let pullRequest: PullRequest
 
